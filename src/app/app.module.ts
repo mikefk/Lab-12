@@ -4,10 +4,18 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { Component1Component } from './component1.component';
+import { UpperDirective } from './upper.directive';
+import { MyvisibiltyDirective } from './myvisibilty.directive';
+import { MycolorDirective } from './mycolor.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    Component1Component,
+    UpperDirective,
+    MyvisibiltyDirective,
+    MycolorDirective
   ],
   imports: [
     BrowserModule,
